@@ -1,0 +1,7 @@
+.taskColumn{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    width: 33.33%;
+}

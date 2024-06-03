@@ -1,0 +1,43 @@
+.taskCardContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border: 1px solid gray;
+    padding: 4px 8px;
+    border-radius: 10px;
+    width: 90%;
+}
+
+.taskCardHeading{
+    font-size: 18px;
+    font-weight: 500;
+    color: #36454F;
+}
+
+.taskCardSubHeading{
+    font-size: 14px;
+    font-weight: 400;
+    color: #808080;
+}
+
+
+.taskCardButtonContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.taskCardButton{
+    padding: 6px 8px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+}
+
+.taskCardDeleteButton{
+    background-color: rgb(133, 112, 230);
+}
+
+.taskCardMoveButton{
+    background-color: rgb(102, 41, 182);
+}

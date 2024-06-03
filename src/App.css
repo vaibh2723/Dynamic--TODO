@@ -4,3 +4,8 @@
   height: 100vh;
 }
 
+.taskContainer{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
